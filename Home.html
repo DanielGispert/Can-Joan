@@ -9,16 +9,9 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="/Home">Home</a></li>
-                <li><a href="/Menu">Menu</a></li>
-                <li><a href="/Contact">Contact</a></li>
-            </ul>
-        </nav>
-        
+        <h1>Can Joan</h1>
     </header>
-    <h1>Can Joan</h1>
+
     <section id="start">
             <h2>Welcome to Ca Joan</h2>
             <p>
@@ -39,24 +32,30 @@
 <br>
     <section>
         <h3>Make your reservation</h3>
-        <script src="Resev.js"></script>
-        <form id="ReservForm">
+
+        <form id="formulario">
             <label for="ReservName">Reserve Name:</label>
             <input type="text" name="ReservName" id="ReservName">
             <br>
+            
             <label for="ReservDate">Reserve Date:</label>
             <input type="date" name="ReservDate" id="ReservDate">
             <br>
+            
             <label for="ReservTime">Reserve Time:</label>
             <input type="time" name="ReservTime" id="ReservTime">
             <br>
-            <label for="NumberPeople:">Number of People:</label>
+            
+            <label for="NumberPeople">Number of People:</label>
             <input type="number" name="NumberPeople" id="NumberPeople">
             <br>
             <input type="submit" value="Reservation">
         </form>
         
+        <h3 id="respuesta"></h3>
+        
     </section>
+    <script src="app.js"></script>
 <br>
 <br>
 <br>
